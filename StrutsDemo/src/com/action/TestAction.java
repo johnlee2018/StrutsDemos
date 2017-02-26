@@ -5,18 +5,18 @@ import com.opensymphony.xwork2.ActionSupport;
 public class TestAction extends ActionSupport{
 	
 private static final long serialVersionUID=1L;
-private String helo;
+private String message;
 
-public String getHelo() {
-	return helo;
+public String getMessage() {
+	return message;
 }
 
-public void setHelo(String helo) {
-	this.helo = helo;
+public void setMessage(String message) {
+	this.message = message;
 }
 @Override
 	public String execute() throws Exception {
-		helo="hello,world";
+		message="นินิ,hello,world";
 		return SUCCESS;
 	}
 }

@@ -10,21 +10,20 @@
 				<param name="actionName">userLogin</param>
 				<param name="namespace">/user</param>
 			</result>
+			<result name="error"  type="redirectAction">redirect</result>
+
 		</action>
         <action name="hello"  class="com.action.TestAction">
-            <result>/success.jsp</result>
+            <result>/hello.jsp</result>
         </action>
-
-		<action name="error">
-			<result>/error.jsp</result>
+		<action name="redirect">
+			<result>/redirect.jsp</result>
 		</action>
 	</package>
 	<package name="user" namespace="/user" extends="struts-default" >
 		<action name="userLogin" class="com.action.UserAction">
-			<result>/hello.jsp</result>
+			<result>/success.jsp</result>
 		</action>
 	</package>
-<!--      <package name="default" namespace="/" extends="struts-default">
-    </package>
--->
+
 </struts>
