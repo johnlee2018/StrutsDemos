@@ -5,15 +5,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>index</title>
+<title>访问出错</title>
 </head>
 <body>
-	<center>
-		<s:a action="login">login</s:a><br>
-	    <s:a action="hello">hello</s:a><br>
-		<s:a action="login!redirect.action">redirect</s:a><br>
-		<s:a action="mistake">mistake</s:a> 
 
-	</center>
+    <h1>sorry ，您访问的页面出错，请重新访问 ！！</h1>
+ 
 </body>
 </html>
