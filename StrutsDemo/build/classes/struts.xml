@@ -25,5 +25,4 @@
 			<result>/success.jsp</result>
 		</action>
 	</package>
-
 </struts>
